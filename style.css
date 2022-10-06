@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(51, 40, 40) !important;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.gagal {
+  display: none;
+}
