@@ -18,7 +18,7 @@ form.addEventListener('submit', (e) => {
       row.innerHTML = `
               <td>${inputNama}</td>
               <td>${inputUmur}</td>
-              <td><button class="btn btn-warning me-3 edit">Edit</button><button class="btn btn-danger delete">Delete</button></td>
+              <td class='btn-wrapper'><button class="btn btn-warning edit">Edit</button><button class="btn btn-danger delete">Delete</button></td>
       `;
 
       list.appendChild(row);
